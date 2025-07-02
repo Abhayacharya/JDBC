@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'mysql:mysql-connector-java:8.0.33'
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.12.0'
+    testImplementation 'junit:junit:4.13.2'
+}
